@@ -1,0 +1,37 @@
+.animation-wrapper {
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.ball {
+    width: 130px;
+    height: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 800ms;
+    transform: translate(-50%, -50%);
+
+}
+
+.ball-animated {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(178, 114, 238);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1800ms;
+
+    margin-left: -150px;
+   
+}
+
+
